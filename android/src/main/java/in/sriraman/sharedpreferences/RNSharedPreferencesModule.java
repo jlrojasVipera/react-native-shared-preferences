@@ -25,7 +25,7 @@ public class RNSharedPreferencesModule extends ReactContextBaseJavaModule {
 	private ArrayList<BluetoothDevice> bt_device_list = null;
 	private boolean bt_scanning = false;
 	private boolean is_watch = false;
-	private String shared_name = "wit_player_shared_preferences";
+	private String shared_name = "smartick_prefs";
 
 	private BroadcastReceiver bt_info_receiver = null;
 
